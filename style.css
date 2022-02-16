@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  font-family: 'Poppins', sans-serif;
+  color: #f1faee;
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+.titulo div:nth-child(1){
+  text-transform: uppercase;
+}
+.titulo div:nth-child(2){
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: 100;
+}
+.cards {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.input-pokemon {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  background-image: linear-gradient(180deg, #0a0e3d 0%, #4f0073 100%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 10px 10px 35px 0px rgba(11,0,46,0.6);
+  -moz-box-shadow: 10px 10px 35px 0px rgba(11,0,46,0.6);
+  box-shadow: 10px 10px 35px 0px rgba(11,0,46,0.6);
+}
+.pokemon-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 200px;
+  background-color: #f1faee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pokemon-image img{
+    width: 90%;
+}
+.form-control {
+  width: 150px;
+  height: 30px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.radar-chart {
+  display: flex;
+  height: 40%; 
+  width: 40%;
+  background-color: #f1faee;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 10px 10px 35px 0px rgba(11,0,46,0.6);
+  -moz-box-shadow: 10px 10px 35px 0px rgba(11,0,46,0.6);
+  box-shadow: 10px 10px 35px 0px rgba(11,0,46,0.6);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+body {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #0a0e3d 0%, #4f0073 90%);
+
+}
+h1 {
+  color: #f1faee;
+}
+input::-webkit-calendar-picker-indicator {
+  opacity: 100;
+}
