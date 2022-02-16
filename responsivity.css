@@ -1,6 +1,6 @@
 @media (max-width: 600px){
   body {
-    height: 100%;
+    align-items: flex-start;
   }
   .container {
     flex-direction: column;
